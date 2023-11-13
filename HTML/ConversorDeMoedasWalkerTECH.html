@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas</title>
+</head>
+<body>
+  <h1>Conversor de Moedas</h1>
+  <link rel="stylesheet" href="/CSS/ConversorDeMoedasWalkerTECH.css">
+
+  <label for="valorInicial">Valor Inicial:</label>
+  <input type="number" id="valorInicial">
+  
+  <label for="moedaInicial">Escolha a Moeda Inicial:</label>
+  <select id="moedaInicial">
+    <option value="BRL">Real Brasileiro (BRL)</option>
+    <option value="USD">Dólar Americano (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <!-- Adicione outras moedas aqui -->
+    <option value="GBP">Libra Esterlina (GBP)</option>
+    <option value="JPY">Iene Japonês (JPY)</option>
+    <option value="AUD">Dólar Australiano (AUD)</option>
+    <option value="CAD">Dólar Canadense (CAD)</option>
+    <option value="CHF">Franco Suíço (CHF)</option>
+    <option value="CNY">Renminbi Chinês (CNY)</option>
+  </select>
+  
+  <label for="moedaFinal">Escolha a Moeda de Conversão:</label>
+  <select id="moedaFinal">
+    <option value="BRL">Real Brasileiro (BRL)</option>
+    <option value="USD">Dólar Americano (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <!-- Adicione outras moedas aqui -->
+    <option value="GBP">Libra Esterlina (GBP)</option>
+    <option value="JPY">Iene Japonês (JPY)</option>
+    <option value="AUD">Dólar Australiano (AUD)</option>
+    <option value="CAD">Dólar Canadense (CAD)</option>
+    <option value="CHF">Franco Suíço (CHF)</option>
+    <option value="CNY">Renminbi Chinês (CNY)</option>
+  </select>
+
+  <button onclick="converter()">Converter</button>
+
+  <h2>Valor Convertido:</h2>
+  <p id="valorConvertido"></p>
+
+  <script src="/JS/ConversorDeMoedasWalkerTECH.js"></script>
+</body>
+</html>
